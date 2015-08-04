@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C57E13431B70846D00FC7E64 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C57E13421B70846D00FC7E64 /* main.cpp */; };
+		C57E13561B70869100FC7E64 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C57E13551B70869100FC7E64 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C57E133D1B70846D00FC7E64 /* CopyFiles */ = {
+		C57E13501B70869100FC7E64 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C57E133F1B70846D00FC7E64 /* trader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = trader; sourceTree = BUILT_PRODUCTS_DIR; };
-		C57E13421B70846D00FC7E64 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C57E13521B70869100FC7E64 /* algo-trader-tool-suite-2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "algo-trader-tool-suite-2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57E13551B70869100FC7E64 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C57E133C1B70846D00FC7E64 /* Frameworks */ = {
+		C57E134F1B70869100FC7E64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C57E13361B70846D00FC7E64 = {
+		C57E13491B70869100FC7E64 = {
 			isa = PBXGroup;
 			children = (
-				C57E13411B70846D00FC7E64 /* trader */,
-				C57E13401B70846D00FC7E64 /* Products */,
+				C57E13541B70869100FC7E64 /* algo-trader-tool-suite-2 */,
+				C57E13531B70869100FC7E64 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C57E13401B70846D00FC7E64 /* Products */ = {
+		C57E13531B70869100FC7E64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C57E133F1B70846D00FC7E64 /* trader */,
+				C57E13521B70869100FC7E64 /* algo-trader-tool-suite-2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C57E13411B70846D00FC7E64 /* trader */ = {
+		C57E13541B70869100FC7E64 /* algo-trader-tool-suite-2 */ = {
 			isa = PBXGroup;
 			children = (
-				C57E13421B70846D00FC7E64 /* main.cpp */,
+				C57E13551B70869100FC7E64 /* main.cpp */,
 			);
-			path = trader;
+			path = "algo-trader-tool-suite-2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C57E133E1B70846D00FC7E64 /* trader */ = {
+		C57E13511B70869100FC7E64 /* algo-trader-tool-suite-2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C57E13461B70846D00FC7E64 /* Build configuration list for PBXNativeTarget "trader" */;
+			buildConfigurationList = C57E13591B70869100FC7E64 /* Build configuration list for PBXNativeTarget "algo-trader-tool-suite-2" */;
 			buildPhases = (
-				C57E133B1B70846D00FC7E64 /* Sources */,
-				C57E133C1B70846D00FC7E64 /* Frameworks */,
-				C57E133D1B70846D00FC7E64 /* CopyFiles */,
+				C57E134E1B70869100FC7E64 /* Sources */,
+				C57E134F1B70869100FC7E64 /* Frameworks */,
+				C57E13501B70869100FC7E64 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = trader;
-			productName = trader;
-			productReference = C57E133F1B70846D00FC7E64 /* trader */;
+			name = "algo-trader-tool-suite-2";
+			productName = "algo-trader-tool-suite-2";
+			productReference = C57E13521B70869100FC7E64 /* algo-trader-tool-suite-2 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C57E13371B70846D00FC7E64 /* Project object */ = {
+		C57E134A1B70869100FC7E64 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Sander van den Berg";
 				TargetAttributes = {
-					C57E133E1B70846D00FC7E64 = {
+					C57E13511B70869100FC7E64 = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
-			buildConfigurationList = C57E133A1B70846D00FC7E64 /* Build configuration list for PBXProject "trader" */;
+			buildConfigurationList = C57E134D1B70869100FC7E64 /* Build configuration list for PBXProject "algo-trader-tool-suite-2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = C57E13361B70846D00FC7E64;
-			productRefGroup = C57E13401B70846D00FC7E64 /* Products */;
+			mainGroup = C57E13491B70869100FC7E64;
+			productRefGroup = C57E13531B70869100FC7E64 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C57E133E1B70846D00FC7E64 /* trader */,
+				C57E13511B70869100FC7E64 /* algo-trader-tool-suite-2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C57E133B1B70846D00FC7E64 /* Sources */ = {
+		C57E134E1B70869100FC7E64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C57E13431B70846D00FC7E64 /* main.cpp in Sources */,
+				C57E13561B70869100FC7E64 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C57E13441B70846D00FC7E64 /* Debug */ = {
+		C57E13571B70869100FC7E64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -167,7 +167,7 @@
 			};
 			name = Debug;
 		};
-		C57E13451B70846D00FC7E64 /* Release */ = {
+		C57E13581B70869100FC7E64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,14 +202,14 @@
 			};
 			name = Release;
 		};
-		C57E13471B70846D00FC7E64 /* Debug */ = {
+		C57E135A1B70869100FC7E64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		C57E13481B70846D00FC7E64 /* Release */ = {
+		C57E135B1B70869100FC7E64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -219,24 +219,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C57E133A1B70846D00FC7E64 /* Build configuration list for PBXProject "trader" */ = {
+		C57E134D1B70869100FC7E64 /* Build configuration list for PBXProject "algo-trader-tool-suite-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C57E13441B70846D00FC7E64 /* Debug */,
-				C57E13451B70846D00FC7E64 /* Release */,
+				C57E13571B70869100FC7E64 /* Debug */,
+				C57E13581B70869100FC7E64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C57E13461B70846D00FC7E64 /* Build configuration list for PBXNativeTarget "trader" */ = {
+		C57E13591B70869100FC7E64 /* Build configuration list for PBXNativeTarget "algo-trader-tool-suite-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C57E13471B70846D00FC7E64 /* Debug */,
-				C57E13481B70846D00FC7E64 /* Release */,
+				C57E135A1B70869100FC7E64 /* Debug */,
+				C57E135B1B70869100FC7E64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C57E13371B70846D00FC7E64 /* Project object */;
+	rootObject = C57E134A1B70869100FC7E64 /* Project object */;
 }

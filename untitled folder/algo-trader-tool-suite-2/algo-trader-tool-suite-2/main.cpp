@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  trader
+//  algo-trader-tool-suite-2
 //
 //  Created by Sander van den Berg on 4/8/15.
 //  Copyright (c) 2015 Sander van den Berg. All rights reserved.
